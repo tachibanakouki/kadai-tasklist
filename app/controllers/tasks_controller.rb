@@ -10,9 +10,45 @@ class TasksController < ApplicationController
   def new
     @task = Task.new
   end
+  
+  def create
+    @task = Task.new(task_params)
+    if @task.save
+      flash[:success] = "タスクを登録しました。"
+      redirect_to task_url(@task)
+    else
+      flash.now[:danger] = "タスクの投稿に失敗しました。"
+      render :new
+    end
+  end
 
   def edit
     @task = Task.find(params[:id])
   end
 
+  def update
+    @message = Task.find(params[:id])
+
+    if @task.update(task_params)
+      flash[:success] = 'Task は正常に更新されました'
+      redirect_to @task
+    else
+      flash.now[:danger] = 'Task は更新されませんでした'
+      render :edit
+    end
+  end
+  
+  def destroy
+        @task = Task.find(params[:id])
+    @task.destroy
+
+    flash[:success] = 'Task は正常に削除されました'
+    redirect_to tasks_url
+  end
+  
+  private
+  
+  def task_params
+    params.require(:task).permit(:content)
+  end
 end
