@@ -1,0 +1,41 @@
+[33mcommit 172cfa8d71d3632daccaee78498ca8958e96c52c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: EC2 Default User <ec2-user@ip-172-31-62-212.ec2.internal>
+Date:   Sat Oct 13 14:18:21 2018 +0000
+
+    kadai-task
+
+[33mcommit af8535b16b0c08be86e26bda4038a18a5e2f59dd[m
+Author: EC2 Default User <ec2-user@ip-172-31-62-212.ec2.internal>
+Date:   Sat Oct 13 07:18:10 2018 +0000
+
+    kadai-task
+
+[33mcommit b73ddef21aaca9d92fa4c0d6e477437a8e3e00ed[m
+Author: EC2 Default User <ec2-user@ip-172-31-62-212.ec2.internal>
+Date:   Sat Oct 13 04:26:55 2018 +0000
+
+    kadai-tasklist
+
+[33mcommit 5026cf411bd098be2b04a6457e296fdad7135b0d[m
+Author: EC2 Default User <ec2-user@ip-172-31-62-212.ec2.internal>
+Date:   Sun Oct 7 00:50:07 2018 +0000
+
+    CRUD task
+
+[33mcommit f0de1eddf973cc7dc90c8f11e86634e29702f5ed[m
+Author: EC2 Default User <ec2-user@ip-172-31-62-212.ec2.internal>
+Date:   Sun Oct 7 00:31:53 2018 +0000
+
+    CRUD task
+
+[33mcommit a3f90dbd4ddda48d5e1e9e9f95dcc3bc34886096[m
+Author: EC2 Default User <ec2-user@ip-172-31-62-212.ec2.internal>
+Date:   Sun Oct 7 00:11:07 2018 +0000
+
+    task model
+
+[33mcommit 3df73cc7181296858aee162f605b9acf1c78afd7[m
+Author: EC2 Default User <ec2-user@ip-172-31-62-212.ec2.internal>
+Date:   Sun Oct 7 00:07:01 2018 +0000
+
+    init kadai-task
